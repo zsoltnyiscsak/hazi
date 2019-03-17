@@ -1,0 +1,21 @@
+def beolvas():
+    plus = 0
+    neg = 0
+
+    a = int(input("Írjon be egy számot: "))
+    if a > 0:
+        plus += 1
+    else:
+        neg += 1
+
+    while a != 0:
+        x = int(input("Írjon be egy számot: "))
+        a += x
+        if x > 0:
+            plus += 1
+        elif x < 0:
+            neg += 1
+        elif x == 0:
+            break
+    print("A pozitívak száma: {}\n a negatívak száma {}".format(plus,neg))
+beolvas()
