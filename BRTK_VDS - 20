@@ -1,0 +1,10 @@
+from math import *
+
+def negyzetszam():
+
+    x = int(input("Adjon meg egy számot: "))
+    int(sqrt(x))
+    y = int(sqrt(x)) * int(sqrt(x))
+    print("A legközelebbi négyzetszám: {}".format(y))
+
+negyzetszam()
